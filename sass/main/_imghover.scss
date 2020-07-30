@@ -1,0 +1,76 @@
+.img_inner {
+        margin: 0px 0 60px 0;
+    .custom_col {
+        position: relative;
+        margin-top: 30px;
+        overflow: hidden;
+        .img {
+            width: 100%;
+            height: 300px;
+        }
+        .hover_con {
+            padding: 0;
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            opacity: 0;
+            transition: all 0.5s;
+            visibility: hidden;
+            .hover_inner {
+                width: 100%;
+                .textcentr {
+                    color: #fff;
+                    margin: 90px 0;
+                    .devlop_icon {
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 53px;
+                        background: rgba(92, 157, 222, 0.5);
+                        border-radius: 50%;
+                        color: #fff;
+                        margin-left: 5px;
+                        transition: all 0.5s;
+                        &:hover {
+                           color: #fafafa;
+                           transform: scale(1.2);
+                        }
+                    }
+                }
+                .hed_tex {
+                    padding-left: 25px;
+                    margin-bottom: -10px;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 300;
+                    text-transform: uppercase;
+                }
+            }
+        }
+        &::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(-90deg,#44a1abfa, #005aff);
+            opacity: 0;
+            transition: all 0.5s;
+            top: 0;
+            left: 0;
+        }
+        &:hover{
+            &::before {
+                opacity: 0.7;
+            }
+            .hover_con {
+                opacity: 1;
+                top: 0;
+                visibility: visible;
+            }
+        }
+    }
+}

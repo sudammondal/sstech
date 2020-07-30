@@ -1,0 +1,41 @@
+.welead {
+    background-image: url(../imgs/thank_welcom_bg.png);
+    background-position: center;
+    background-size: cover;
+    .weled_worp {
+        .wead_hed {
+            margin: 70px 0 35px 0;
+            text-transform: uppercase;
+            font-size: 34px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            .wed_span {
+                color: #2693fc;
+            }
+        }
+        .wede_pra {
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            letter-spacing: -1px;
+        }
+        .btn_btun4 {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            border-radius: 50px;
+            padding: 10px 40px;
+            font-size: 14px;
+            border: 0;
+            transition: all 0.5s;
+            text-transform: uppercase;
+            box-shadow: none;
+            background-image: linear-gradient(-90deg, #44a1abfa, #005aff);
+            margin: 20px 0 80px 0;
+            box-shadow: 1px 4px 2px #493c3c;
+            &:hover {
+                background-image: linear-gradient(-90deg, #005aff, #44a1abfa);
+                color: #fff;
+                
+            }
+        }
+    }
+}

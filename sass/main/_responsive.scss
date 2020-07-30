@@ -1,0 +1,637 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 1024px) {
+    .OUR_PORTFOLIO {
+        .protfolio_worp {
+            .parteflo_button {
+                .btun_deful {
+                    bottom: 1px solid #756aff;
+                }
+            }
+        }
+    }
+    .banner {
+        height: 900px;
+        .imgss {
+            margin: 251px 0 117px 0;
+        }
+    }
+}
+// media for ipad pro 
+
+@media (max-width: 991px) {
+    .header { background-image: linear-gradient(-90deg,  #005aff, #44a1abfa);
+        .navbar {
+            .collapse_hed {
+                .navbar-nav {
+                    .nav-item {
+                        margin: 6px 0;
+                    }
+                }
+            }
+        }
+    }
+    .banner {
+        .imgss {
+            margin: 20px 0 117px 0;
+        }
+    }
+    .our_sarvice {
+        .sarvice {
+            .hedr2 {
+                margin: 150px 0 40px 0;
+            }
+        }
+    }
+    .icon_section {
+        .icon_worp {
+            margin: 40px 0;
+        }
+    }
+    .welead {
+        .back_ground {
+            background: url(../imgs/thank_welcom_bg.png);
+            height: 500px;
+            width: auto
+        }
+    }
+    .back_ground {
+        margin-left: -80px;
+    }
+    .OUR_PORTFOLIO {
+        .protfolio_worp {
+            .parteflo_button {
+                border: 1px solid transparent;
+            }
+        }
+    }
+    .footer_worp {
+        .coprit {
+            .copy_pra {
+                text-align: center;
+            }
+        }
+        .footer_icon {
+            float: none;
+            text-align: center;
+        }
+    }
+
+}
+@media (max-width: 823px) {
+    .header {
+        .navbar {
+            .imglogo {
+                height: 40px;
+            }
+        }
+    }
+    .banner .hd_banner .hedrtTex {
+        margin-bottom: 23px;
+    }
+    .sub_met {
+        .submet_items {
+            .from_item {
+                .sub_metbtn {
+                    left: 75%;
+                }
+            }
+        }
+    }
+}
+
+//  media for ipad
+
+@media (max-width: 768px) {
+    ul,
+    .navbar-nav,
+    .ml-auto {
+        overflow: scroll;
+        height: 200px;
+    }
+   .ovwe_scroll {
+        width: 100%;
+        height: 200px;
+        overflow: auto;
+    }
+    .welead { margin-top: 40px;
+        .back_ground {
+            background: url(../imgs/thank_welcom_bg.png);
+            height: 500px;
+            width: auto;
+            margin-left: -40px;
+        }
+    }
+    .banner {height: 870px;
+        .imgss {
+            margin: 0 0 120px 50px;
+        }
+    }
+    .header {
+        .navbar {
+            .collapse_hed {
+                .navbar-nav { margin-top: 10px;
+                    .nav-item {
+                        margin: 10px 0;
+                    } 
+                }
+            }
+        }
+    }
+    .OUR_PORTFOLIO {
+        .protfolio_worp {
+            .parteflo_button { border: 1px solid transparent;
+                .btun_deful {
+                    padding: 4px 30px;
+                    border: 0;
+                }
+            }
+        }
+    }
+    .footer_worp {
+        .coprit {
+            .copy_pra {
+                text-align: center;
+            }
+        }
+        .footer_icon {
+            float: none;
+            text-align: center;
+        }
+    }
+    .icon_section {
+        .icon_worp {
+            margin: 40px 0;
+        }
+    }
+
+    .sub_met {
+        .submet_items {
+            .from_item {
+                .sub_metbtn {
+                    top: 50%;
+                    left: 40%;
+                    box-shadow: 3px 3px 6px #493c3c;
+                }
+                .parteflo_button2 {
+                    background: none;
+                    .bdrl {
+                        border-left: 1px solid #fff;
+                        height: 32px;
+                    }
+                    .border_em {
+                        margin-left: 10px;
+                        outline: none;
+                        padding: 8px 8px 8px 14px;
+                        border: 1px solid #fff;
+                        border-radius: 50px;
+                        margin-bottom: 10px;
+                        background: #fff;
+                        height: 40px;
+                        box-shadow: 3px 3px 6px #493c3c;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 736px){
+    .welead {
+        .back_ground {
+            margin-left: -205px;
+        }
+    }
+    .OUR_PORTFOLIO {
+        .protfolio_worp {
+            .parteflo_button {
+                border: 1px solid transparent;
+                .btun_deful {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .sub_met {
+        .submet_items {
+            .from_item {
+                .sub_metbtn {
+                    left: 37%;
+                    top: 35%;
+                }
+                .parteflo_button2 {
+                    margin-bottom: 150px;
+                }
+            }
+        }
+    }
+    .hola_Lala {
+        .testimonial-1 { background-size: contain;
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .hola_Lala {
+        .testimonial-1 {
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 101px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 568px) {
+    .hola_Lala {
+        .testimonial-1 {
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 110px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// media for mobile large
+
+@media (max-width: 420px) {
+    .welead {
+        .back_ground {
+            margin-left: -210px;
+        }
+    }
+    .banner {
+        height: 840px;
+        .hd_banner {
+            .hedrtTex {
+                font-size: 30px;
+                margin: 200px 0 25px 0;
+                line-height: 40px;
+            }
+            .btn_btun {
+                padding: 8px 25px;
+            }
+        }
+        .imgss {
+            margin: 0 0 120px 0px;
+        }
+    }
+    .our_sarvice {
+        .sarvice {
+            .hedr2 {
+                margin: 52px 0 40px 0;
+                font-size: 30px;
+            }
+            .prag_text2 {
+                font-size: 20px;
+            }
+        }
+    }
+    .icon_section {
+        .icon_worp {margin: 30px 0;
+            .h_icon {
+                font-size: 20px;
+            }
+        }
+    }
+    .welead {
+        .weled_worp {
+            .wead_hed {
+                font-size: 30px;
+            }
+            .wede_pra  {
+                font-size: 18px;
+            }
+            .btn_btun4 {
+                padding: 8px 30px;
+            }
+
+        }
+    }
+    .world_banner {
+        .project_countig {
+            .costom_class {
+                .counting_worp {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .OUR_PORTFOLIO {
+        .protfolio_worp {
+            .parteflo_button { border: 1px solid transparent;
+                .btun_deful {
+                    padding: 4px 25px; 
+                    font-size: 14px;
+                    border: 0;
+                }
+            }
+             .prtoflo_hed {
+                font-size: 30px;
+            }
+            .protflo_pra {
+                font-size: 18px;
+            }
+        }
+    }
+    .sub_met {
+        .submet_items {
+            .heder_sub {
+                font-size: 30px;
+            }
+            .from_item {
+                .sub_metbtn {
+                    left: 33%;
+                    top: 44%;
+                }
+            }
+        }
+    }
+    .hola_Lala {
+        .hola_h {
+            font-size: 30px;
+        }
+        .hola_p {
+            font-size: 20px;
+        }
+        .testimonial-1 { margin-bottom: 50px;
+            h3 {
+                font-size: 22px;
+            }
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 65px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .contac_worp {
+        .contk_hed {
+            font-size: 30px;
+        }
+        .contac_pra {
+            font-size: 18px;
+        }
+    }
+    .submet_worp {
+        .main_form {
+            .send_ding {
+                padding: 8px 40px;
+            }
+        }
+    }
+   
+    
+}
+    
+// media for mobile small
+
+@media (max-width: 375px) {
+    .header {
+        .navbar {
+            .imglogo {
+                height: 40px;
+            }
+        }
+    }
+    .sub_met {
+        .submet_items {
+            .from_item {
+                .sub_metbtn {
+                    left: 30%;
+                    top: 45%;
+                }
+            }
+            .heder_sub {
+                font-size: 30px;
+            }
+        }
+    }
+    .banner {
+        .hd_banner {
+            .hedrtTex {
+                font-size: 30px;
+                line-height: 45px;
+                margin: 200px 0 15px 0;
+            }
+            .btn_btun {
+                margin-bottom: 15px;
+            }
+        }
+        
+    }
+    .world_banner {
+        .htex_wold {
+            margin: 80px 0px;
+        }
+    }
+    .our_sarvice {
+        .sarvice {
+            .hedr2 {
+                font-size: 30px;
+                margin: 45px 0 40px auto;
+            }
+            .prag_text2 {
+                font-size: 18px;
+            }
+        }
+    }
+    .icon_section {
+        .icon_worp {
+            .h_icon {
+                font-size: 20px;
+            }
+        }
+    }
+    .welead {
+        .back_ground {
+            margin-left: -230px;
+        }
+        .weled_worp {
+            .wead_hed {
+                font-size: 30px;
+            }
+            .wede_pra  {
+                font-size: 18px;
+            }
+            .btn_btun4 {
+                padding: 8px 30px;
+            }
+        }
+    }
+    .world_banner {
+        .project_countig {
+            .costom_class {
+                .counting_worp {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .OUR_PORTFOLIO {
+        .protfolio_worp {
+            .parteflo_button {
+                border: 0;
+                .btun_deful {
+                    border: 0;
+                    padding: 3px 20px;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+            
+                }
+            }
+             .prtoflo_hed {
+                font-size: 30px;
+            }
+            .protflo_pra {
+                font-size: 18px;
+            }
+        }
+    }
+    .hola_Lala {
+        .hola_h {
+            font-size: 30px;
+        }
+        .hola_p {
+            font-size: 20px;
+        }
+        .testimonial-1 {
+            h3 {
+                font-size: 22px;
+            }
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contac_worp {
+        .contk_hed {
+            font-size: 30px;
+        }
+        .contac_pra {
+            font-size: 18px;
+        }
+    }
+    .submet_worp {
+        .main_form {
+            .send_ding {
+                padding: 8px 40px;
+            }
+        }
+    }
+
+}
+
+@media (max-width:360px) {
+    .hola_Lala {
+        .testimonial-1 {
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        .navbar {
+            .imglogo {
+                height: 35px;
+            }
+        }
+    }
+    .banner {
+        .imgss {
+            margin: 0;
+        }
+        .hd_banner {
+            .btn_btun {
+                padding: 8px 25px;
+            }
+        }
+    }
+    .icon_section {
+        .icon_worp{
+            margin: 30px 0px;
+        }
+    }
+    .welead {
+        .weled_worp {
+            .btn_btun4 {
+                padding: 8px 25px;
+            }
+        }
+    }
+    .sub_met {
+        .submet_items {
+            .from_item {
+                .sub_metbtn {
+                    left: 25%;
+                }
+            }
+        }
+    }
+    .hola_Lala {
+        .testimonial-1 { margin-bottom: 52px;
+            .ladish_img {
+                ul {
+                    .img_list {
+                        .tst_img {
+                            margin-top: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .world_banner {
+        .htex_wold {
+            margin: 80px 0px;
+        }
+    }
+    .footer_worp {
+        .coprit {
+            .copy_pra {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}

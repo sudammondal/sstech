@@ -1,0 +1,33 @@
+.footer_worp {
+    background-image: linear-gradient(-90deg, #44a1abfa, #005aff);
+    .coprit {
+        .copy_pra {
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            margin: 35px 0;
+            color: #fff;
+        }
+        .cf_dvidr {
+            margin: 0 10px;
+        }
+        .f_tex {
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .footer_icon {
+        float: right;
+        margin: 35px 0;
+        .icon_ftr {
+            padding: 0 5px;
+            font-size: 20px;
+            margin-left: 5px;
+            color: #eef9ff;
+            transition: all 0.5s;
+            &:hover {
+                color:#fff;
+                transform: scale(1.4);
+            }
+        }
+    }
+}

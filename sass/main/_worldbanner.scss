@@ -1,0 +1,35 @@
+.world_banner {
+    background-image: url(../imgs/world_img2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .htex_wold {
+        margin: 130px 0 80px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    .projet {
+        color: #2693fc;
+        }
+    }
+    .project_countig {
+        .costom_class {
+            padding: 26px 30px 5px 34px;
+            transition: all 0.5s;
+            .counting_worp {
+                text-align: center;
+                font-size: 20px;
+                font-family: 'Poppins', sans-serif;
+                .count_er {
+                    color: #2693fc;
+                    font-weight: 700;
+                }
+            }
+        &:hover {
+            background: #f6fbff;
+            box-shadow: 4px 4px 10px #8888884a;
+            }
+        }
+    }
+}

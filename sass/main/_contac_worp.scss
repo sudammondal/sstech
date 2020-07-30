@@ -1,0 +1,43 @@
+.contac_worp {
+    margin-bottom: 80px;
+    .contk_hed {
+        margin: 75px 0 35px 0;
+        font-size: 34px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+        .cont_span {
+            color: #756aff;
+        }
+    }
+    .contac_pra {
+        margin: 0 auto 75px;
+        font-size: 20px;
+        max-width: 675px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .costom_clall {
+        padding: 26px 30px 5px 34px;
+        background: #eef9ff;
+        box-shadow: 3px 3px 6px #888888;
+        transition: all 0.5s;
+        margin: 20px 0;
+        &:hover {
+            box-shadow: 3px 3px 15px 1px #888888;
+        }
+        .count_er {
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Poppins', sans-serif;
+            .coll_ico {
+                color: #2693fc;
+                font-weight: 700;
+                margin-bottom: 23px;
+            }
+        }
+        .coll_t {
+            margin-bottom: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+    }
+}

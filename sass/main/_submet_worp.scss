@@ -1,0 +1,53 @@
+.submet_worp {
+    .main_form {
+        .form-group {
+            margin: 15px 0;
+            &:hover {
+                box-shadow: 0px 0px 10px #b5b5b5;
+                background: #fff;
+            }
+            .castomcla_s {
+                box-shadow: none;
+                background: #fafafa;
+                border-radius: 0;
+                padding: 10px 10px;
+                font-size: 16px;
+                font-family: 'Poppins', sans-serif;
+            }
+            .textbox_aria{
+                box-shadow: none;
+                background: #fafafa;
+                border-radius: 0;
+                padding: 10px 10px;
+                font-size: 16px;
+                text-transform: capitalize;
+                font-family: 'Poppins', sans-serif;
+                min-height: 215px;
+            }
+        }
+        .send_ding {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            border-radius: 50px;
+            padding: 10px 45px;
+            font-size: 14px;
+            border: 0;
+            transition: all 0.5s;
+            text-transform: uppercase;
+            background-image: linear-gradient(-90deg, #44a1abfa, #005aff);
+            margin-bottom: 80px;
+            margin-top: 10px;
+            box-shadow: none;
+            box-shadow: 1px 4px 2px #493c3c;
+            &:hover{
+            background-image: linear-gradient(-90deg, #005aff, #44a1abfa);
+            }
+        }
+    }
+    .img_background {
+        background-image: url(../imgs/thank_new.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 550px;
+    }
+}
